@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNat Portfolio Website</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devnat_logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Project<strong>Flashcards App</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">study aid for back-end development</p>
+        <img src="img/portfolio-02.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>I used Express to build a responsive and personalized flashcard application. The app accepts the name of the user and it greets them. 
+            From the homepage you can launch a flashcard study session, the app will give you cards in random order. 
+            You can view a hint to help you recall the right answer.
+        </p>
+        <img src="img/portfolio-02-details.png" alt="">
+        <p>You can flip the card front to back and back again. Clicking Next shows the next card. 
+            Finally, a user can clear their name from the site. </p>
+        <img src="img/portfolio-02-details2.png" alt="">
+        <div class="skills-resources">
+            <h3>Technologies</h3>
+            <hr>
+            <p>Technologies and coding skills I used while working on this project:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>NodeJS</li>
+                <li>NPM</li>
+                <li>ExpressJS</li>
+                <li>Pug</li>
+                <li>Heroku</li>
+            </ul>
+            <h3>Resources</h3>
+            <hr>
+            <p>This project is online at <a href="https://murmuring-taiga-70542.herokuapp.com/">Flash Cards App</a></p>
+            <p>View GitHub repository at <a href="https://github.com/nata-ferguson/express-flashcards">GitHub</a></p>
+        </div>
+    </div>
+
+
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nata.ferguson@outlook.com" class="footer__link">nata.ferguson@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/nata-ferguson">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/natsferguson/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

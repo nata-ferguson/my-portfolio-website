@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNat Portfolio Website</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devnat_logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Natasha Ferguson</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Full Stack Web Developer</p>
+        <img src="img/nf_photo-01.jpg" alt="a picture of Natasha smiling" class="intro__img">
+    </section>
+
+    <!--Introduction-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+
+            <div class="service">
+                <h3>Design + Front-End Development</h3>
+                <p>
+                    I start with planning and iterating a site's structure and layout. Once the proper information architecture
+                    is in place, I design the visual layer to create a beautiful user experience. Using HTML, CSS, Javascript, and React,
+                    I build out the visual components of a website and create fast, interactive websites. 
+                    This also may include a CMS, API's, or other integrations.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>Full Stack Web Applications</h3>
+                <p> I work with both the front and back ends of websites and applications and can tackle projects that involve 
+                    SQL and NoSQL databases, UI, development frameworks, server-side code, integration to other systems, and quality assurance.
+                    I develop, test, and deploy secure, responsive applications with HTML, CSS, JavaScript, React, Node.js, Express, 
+                    and other frameworks and libraries.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <h3>E-Commerce Solutions</h3>
+                <p>I develop, integrate, and customize e-commerce sites and platforms to help clients sell services, products, and subscriptions.
+                    I bring years of experience in front and backend development and management of e-commerce websites using CMSs to implement changes needed
+                    to improve conversion rates and site functionality. Well-versed in Shopify, Wix, Squarespace, and best practices around SEO
+                    and conversion optimization.
+                </p>
+            </div> <!-- / service -->
+
+        </div> <!-- / services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Dallas-based Web Developer</p>
+
+        <div class="about-me__body">
+            <p>I'm a Full Stack Web Developer combining a creative and analytical mind with a skill set including UX/UI design,
+                HTML, CSS, JavaScript, React, Node.js, Express, MySQL & MongoDB, and a passion for designing and building
+                beautiful and responsive websites and applications. Articulate and confident communicator and presenter.
+                Productive in both team-based and self-managed environments with a successful track record in delivering multiple 
+                projects in parallel.
+            </p>
+            <p>
+                A few fun facts about me: I lived and worked in 10 countries on 5 continents. 
+                Once upon a time, I left my life in Japan and went to Ghana on a one-way ticket with no job, no plan, and zero contacts. 
+                Running, meditation, plant-based diet, and jjimjilbang going at 100%. 
+                Obsessed with books on behavioral sciences, economics, technology, and communication. 
+                Love stand up comedy and coding day and night!
+            </p>
+        </div>
+
+        <img src="img/nf_photo-02.jpg" alt="a photo of Natasha" class="about-me__img">
+    </section>
+
+    <!--Skills-->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <div class="skills">
+
+            <div class="skills-col">
+                <h3>Front End Dev</h3>
+                <ul class='skills-list'>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>SemanticUI</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>React</li>
+                </ul>
+            </div> <!-- / skills-col -->
+
+            <div class="skills-col">
+                <h3>Back End Dev</h3>
+                <ul class='skills-list'>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Templating (EJS & Pug)</li>
+                    <li>Authentication (PassportJS)</li>
+                    <li>Mongoose</li>
+                    <li>SQL & MongoDB</li>
+                    <li>PaaS (Azure & Heroku)</li>
+                </ul>
+            </div> <!-- / skills-col -->
+
+            <div class="skills-col">
+                <h3>Other Skills / Interests</h3>
+                <ul class='skills-list'>
+                    <li>Git & GitHub</li>
+                    <li>TDD: Mocha, Chai, Jasmine</li>
+                    <li>Deployment with Heroku, Surge</li>
+                    <li>DigitalOcean, Netlify</li>
+                    <li>Current Interests: </li>
+                    <li>Python</li>
+                    <li>Flask & Django</li>
+                </ul>
+            </div> <!-- / skills-col -->
+
+        </div> <!-- / services -->
+
+        <a href="natasha-ferguson-resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="portfolio-item-1.html" class="portfolio__item">
+                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02 -->
+            <a href="portfolio-item-2.html" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03 -->
+            <a href="portfolio-item-3.html" class="portfolio__item">
+                <img src="img/portfolio-03.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 04 -->
+            <a href="portfolio-item-4.html" class="portfolio__item">
+                <img src="img/portfolio-04.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 05 -->
+            <a href="portfolio-item-5.html" class="portfolio__item">
+                <img src="img/portfolio-05.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 06 -->
+            <a href="portfolio-item-6.html" class="portfolio__item">
+                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>Have a project, idea or problem you'd like to discuss? Let's chat!</p>
+        <a href="mailto:nata.ferguson@outlook.com" class="footer__link">nata.ferguson@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/nata-ferguson">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/natsferguson/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

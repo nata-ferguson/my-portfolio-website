@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevNat Portfolio Website</title>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/> 
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/devnat_logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Project<strong>Ravenous</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Restaurant Search App</p>
+        <img src="img/portfolio-04.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>A React web app that searches for restaurants using the Yelp API to access real-life restaurant information.</p>
+        <img src="img/portfolio-04-details.png" alt="">
+        <p>Ravenous functionality: A user can search for restaurants in a chosen location, view a list of restaurants returned by the Yelp API, and 
+            sort through restaurants using a filter. There are three search filters - "Best Match", "Highest Rated", and "Most Reviewed".
+            I used my knowledge of JavaScript and React to create static components, pass information to components, set and manage the state, 
+            and interact with the Yelp API. 
+        </p>
+        
+        <div class="skills-resources">
+            <h3>Technologies</h3>
+            <hr>
+            <p>Technologies and coding skills I used while working on this project:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>NodeJS</li>
+                <li>React</li>
+                <li>Surge</li>
+            </ul>
+            <h3>Resources</h3>
+            <hr>
+            <p>This project is online at <a href="http://arrogant-insurance.surge.sh/">Ravenous</a></p>
+            <p>View GitHub repository at <a href="https://github.com/nata-ferguson/Ravenous">GitHub</a></p>
+        </div>
+   
+    </div>
+
+
+
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nata.ferguson@outlook.com" class="footer__link">nata.ferguson@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/nata-ferguson">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/natsferguson/">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
